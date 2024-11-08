@@ -1,0 +1,13 @@
+UPDATE user_auth SET
+		nazwafirmy = '{{update_form.fieldState.nazwafirmy.isVisible ? update_form.formData.nazwafirmy : update_form.sourceData.nazwafirmy}}',
+		email = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}',
+    password_hash = '{{update_form.fieldState.password_hash.isVisible ? update_form.formData.password_hash : update_form.sourceData.password_hash}}',
+		first_name = '{{update_form.fieldState.first_name.isVisible ? update_form.formData.first_name : update_form.sourceData.first_name}}',
+		last_name = '{{update_form.fieldState.last_name.isVisible ? update_form.formData.last_name : update_form.sourceData.last_name}}',
+		username = '{{update_form.fieldState.username.isVisible ? update_form.formData.username : update_form.sourceData.username}}',
+		last_login = '{{update_form.fieldState.last_login.isVisible ? update_form.formData.last_login : update_form.sourceData.last_login}}',
+		role = '{{update_form.fieldState.role.isVisible ? update_form.formData.role : update_form.sourceData.role}}',
+		telefon = '{{update_form.fieldState.telefon.isVisible ? update_form.formData.telefon : update_form.sourceData.telefon}}',
+		nip = '{{update_form.fieldState.nip.isVisible ? update_form.formData.nip : update_form.sourceData.nip}}',
+		ulicainumer = '{{update_form.fieldState.ulicainumer.isVisible ? update_form.formData.ulicainumer : update_form.sourceData.ulicainumer}}'
+  WHERE id = {{data_table.selectedRow.id}};

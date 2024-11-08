@@ -1,0 +1,9 @@
+UPDATE inventory_main SET
+   
+    moc = '{{edit_produkt_modal.text}}',
+    ilosc = '{{edit_ilosc_modal.text}}',
+    cenanetto = '{{edit_cena_modal.text}}',
+    opisbezrabatow = '{{edit_komentarz_modal.text}}',
+    opiszrabatami = '{{edit_komentarz_modal.text}}'
+   
+  WHERE  	id_main_inv ={{glowna_tabela.triggeredRow.id_main_inv}}; -- Specify a valid condition here. Removing the condition may update every row in the table!

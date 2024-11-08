@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6722915dac9f317e26463117_f0529985-949d-4381-9f1e-431fd5b0b386",
+  "id": "Zaloguj_datepobierz",
+  "unpublishedCollection": {
+    "name": "datepobierz",
+    "pageId": "Zaloguj",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

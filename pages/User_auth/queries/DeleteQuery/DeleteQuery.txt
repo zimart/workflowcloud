@@ -1,0 +1,2 @@
+DELETE FROM user_auth
+  WHERE id = {{data_table.triggeredRow.id}};

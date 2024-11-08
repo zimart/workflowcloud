@@ -1,0 +1,1 @@
+SELECT * FROM warunki WHERE lang='{{Select1.selectedOptionLabel}}';

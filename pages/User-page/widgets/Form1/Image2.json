@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 50,
+  "boxShadow": "none",
+  "defaultImage": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "image"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "{{fpk_selectImage.files && fpk_selectImage.files.length > 0 ? fpk_selectImage.files[0].data : ''||logobaza.text}}",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cfquns0kf2",
+  "leftColumn": 0,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 65,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 53,
+  "needsErrorInfo": false,
+  "objectFit": "contain",
+  "originalBottomRow": 50,
+  "originalTopRow": 41,
+  "parentColumnSpace": 20.25,
+  "parentId": "3nptwm86f7",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 10,
+  "topRow": 41,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "myq7egabxi",
+  "widgetName": "Image2"
+}

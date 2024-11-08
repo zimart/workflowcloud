@@ -1,0 +1,94 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton2.label"
+    },
+    {
+      "key": "groupButtons.groupButton1.label"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "#831843",
+      "buttonType": "SIMPLE",
+      "iconName": "array-numeric",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"DODAJ STEROWANIE\")}}",
+      "menuItems": {},
+      "onClick": "{{showModal(sterowania.name).then(() => {\n  iloscsterowania.run();\n  Select_sterowania2.run();\n});}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "#3e9985",
+      "buttonType": "SIMPLE",
+      "iconName": "confirm",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"PODSUMOWANIE\")}}",
+      "menuItems": {},
+      "onClick": "{{storeValue('uzytkownik', Input29.text);\nstoreValue('id_oferty', idofertyappsmith.text).then(() => {\n  navigateTo('Podsumowanie', {\n    id_oferta: appsmith.store.id_oferty,\n    uzytkownik: appsmith.store.uzytkownik\n  }, 'SAME_WINDOW');\n});}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "zcd9dmtw8b",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 28,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 11,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
+  "parentColumnSpace": 20.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 18,
+  "topRow": 11,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "4cyy9yyk0s",
+  "widgetName": "ButtonGroup1"
+}

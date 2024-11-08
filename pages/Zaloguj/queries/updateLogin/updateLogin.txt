@@ -1,0 +1,2 @@
+UPDATE user_auth  SET last_login = {{Input1.text}}
+  WHERE id = {{this.user.id}};

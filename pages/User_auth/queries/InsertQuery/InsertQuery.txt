@@ -1,0 +1,26 @@
+INSERT INTO user_auth (
+	nazwafirmy,
+	email,
+	password_hash,
+	first_name,
+	last_name,
+	username,
+	last_login,
+	role,
+	telefon,
+	nip,
+	ulicainumer
+)
+VALUES (
+	'{{insert_form.formData.nazwafirmy}}',
+	'{{insert_form.formData.email}}',
+	'{{insert_form.formData.password_hash}}',
+	'{{insert_form.formData.first_name}}',
+	'{{insert_form.formData.last_name}}',
+	'{{insert_form.formData.username}}',
+	'{{insert_form.formData.last_login}}',
+	'{{insert_form.formData.role}}',
+	'{{insert_form.formData.telefon}}',
+	'{{insert_form.formData.nip}}',
+	'{{insert_form.formData.ulicainumer}}'
+);

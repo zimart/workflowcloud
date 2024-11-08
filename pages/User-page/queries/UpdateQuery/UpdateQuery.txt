@@ -1,0 +1,17 @@
+UPDATE user_auth SET
+		nazwafirmy = '{{Input5.text}}',
+		first_name = '{{Input1.text}}',
+		last_name = '{{Input2.text}}',
+		telefon = '{{Input4.text}}',
+		nip = '{{Input9.text}}',
+		ulicainumer = '{{Input6.text}}',
+		kod = '{{Input7.text}}',
+		miejscowosc='{{Input8.text}}',
+		bdo = '{{Input10.text}}',
+		strona = '{{Input11.text}}',
+		telefonfirma = '{{Input12.text}}',
+		mailfirma = '{{Input13.text}}',
+		akcent = '{{Input14.text}}',
+		username ='{{Input17.text}}'
+			
+WHERE id = {{Input15.text}};

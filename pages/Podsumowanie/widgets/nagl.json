@@ -1,0 +1,52 @@
+{
+  "animateLoading": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 172,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Open Sans",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": false,
+  "key": "meqdv5n5nd",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 122,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 118,
+  "needsErrorInfo": false,
+  "originalBottomRow": 172,
+  "originalTopRow": 162,
+  "overflow": "NONE",
+  "parentColumnSpace": 20.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 18,
+  "shouldTruncate": false,
+  "text": "{{daneuzytkownik.data[0].nazwafirmy||\"uzupełnij dane\"}}\n{{daneuzytkownik.data[0].ulicainumer||\"\"}} {{daneuzytkownik.data[0].kod||\"\"}} {{daneuzytkownik.data[0].miejscowosc||\"\"}}\ntel:{{daneuzytkownik.data[0].telefonfirma||\"\"}} | {{daneuzytkownik.data[0].strona||\"\"}}\nVAT ID: {{daneuzytkownik.data[0].nip||\"\"}}\nBDO:{{daneuzytkownik.data[0].bdo||\"\"}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 162,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "g6t0i62uwd",
+  "widgetName": "nagl"
+}

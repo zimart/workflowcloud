@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "66f263e90ea81e705fc1052a_12545c3a-7971-41c7-9aa9-3554a8a40681",
+  "id": "Screeny_inventory_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Screeny_inventory",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"Język\": \"Język\",\n  \"Ilość\": \"Ilość\",\n  \"DODAJ STEROWANIE\": \"DODAJ STEROWANIE\",\n  \"Zmiana języka\": \"Zmiana języka\",\n  \"Szerokość\": \"Szerokość\",\n  \"Produkt\": \"Produkt\",\n  \"Wysokość\": \"Wysokość\",\n  \"Cena bazowa systemu\": \"Cena bazowa systemu\",\n  \"Kolor\": \"Kolor\"\n}"
+      },
+      {
+        "name": "languageOptions",
+        "value": "[\"Polski\", \"Deutch\", \"English\"]"
+      }
+    ]
+  }
+}

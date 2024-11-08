@@ -1,0 +1,18 @@
+{
+  "accessor": [
+    "Cell_3",
+    "CellHookData_3",
+    "default_3",
+    "applyPlugin_3",
+    "__drawTable_3",
+    "__createTable_3",
+    "Row_3",
+    "Table_3",
+    "Column_3"
+  ],
+  "defs": "{\"!name\":\"LIB/__createTable_3\",\"__drawTable_3\":{\"!type\":\"fn()\",\"prototype\":{}},\"default_3\":{\"!type\":\"fn()\",\"prototype\":{}},\"Table_3\":{\"!type\":\"fn()\",\"prototype\":{\"getHeadHeight\":{\"!type\":\"fn()\",\"prototype\":{}},\"getFootHeight\":{\"!type\":\"fn()\",\"prototype\":{}},\"allRows\":{\"!type\":\"fn()\",\"prototype\":{}},\"callCellHooks\":{\"!type\":\"fn()\",\"prototype\":{}},\"callEndPageHooks\":{\"!type\":\"fn()\",\"prototype\":{}},\"getWidth\":{\"!type\":\"fn()\",\"prototype\":{}}}},\"Column_3\":{\"!type\":\"fn()\",\"prototype\":{\"getMaxCustomCellWidth\":{\"!type\":\"fn()\",\"prototype\":{}}}},\"CellHookData_3\":{\"!type\":\"fn()\",\"prototype\":{}},\"applyPlugin_3\":{\"!type\":\"fn()\",\"prototype\":{}},\"Row_3\":{\"!type\":\"fn()\",\"prototype\":{\"getMaxCellHeight\":{\"!type\":\"fn()\",\"prototype\":{}},\"hasRowSpan\":{\"!type\":\"fn()\",\"prototype\":{}},\"canEntireRowFit\":{\"!type\":\"fn()\",\"prototype\":{}},\"getMinimumRowHeight\":{\"!type\":\"fn()\",\"prototype\":{}}}},\"Cell_3\":{\"!type\":\"fn()\",\"prototype\":{\"getTextPos\":{\"!type\":\"fn()\",\"prototype\":{}},\"getContentHeight\":{\"!type\":\"fn()\",\"prototype\":{}},\"padding\":{\"!type\":\"fn()\",\"prototype\":{}}}},\"__createTable_3\":{\"!type\":\"fn()\",\"prototype\":{}}}",
+  "name": "__createTable_3",
+  "uidString": "CellHookData_3_Cell_3_Column_3_Row_3_Table_3___createTable_3___drawTable_3_applyPlugin_3_default_3_https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js",
+  "url": "https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js",
+  "version": ""
+}

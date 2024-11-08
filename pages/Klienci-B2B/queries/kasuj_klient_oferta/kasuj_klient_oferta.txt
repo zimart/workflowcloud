@@ -1,0 +1,1 @@
+DELETE FROM oferty WHERE id_klient = {{data_table.triggeredRow.accountid}};

@@ -1,0 +1,18 @@
+UPDATE oferty SET 
+    kurseuro = '{{kursinput.text}}',
+    waluta = '{{Select6.selectedOptionValue}}',
+		vat = '{{vat.selectedOptionValue}}',
+		rabat = '{{rabatogolny.text}}',
+		tabelanbpkurs = '{{tabelanbpkurs.text}}',
+		kurswgtabeli = '{{kurstabela.text}}',
+		komentarz = '{{opisoferty.text}}',
+		wymaganyzadatekprocent = '{{wymaganyzadatekprocent.text}}',
+		datawaznosci='{{dniwaznosc.text}}',
+		warunkiplatnosci = '{{MultiSelect1.selectedOptionValues}}',
+	  narzut = '{{narzut.text}}',
+		wymaganyzadatek ='{{wymaganyzadatek.text}}',
+		sumanetto = '{{(netto.text).toFixed(2)}}',
+		sumabrutto = '{{bruttozad.text}}',
+		sumarabatu = '{{(sumarabatu.data[0]["SUM (kwotarabatogolny)"]).toFixed(2)}}'
+		
+WHERE  id_oferta = {{appsmith.URL.queryParams.id_oferta}}; 

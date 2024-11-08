@@ -1,0 +1,82 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "bottomRowBeforeCollapse": 5,
+  "boxShadow": "none",
+  "defaultText": "{{kursnbp.data.rates[0].mid}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onBlur"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "onBlur"
+    }
+  ],
+  "iconAlign": "left",
+  "inputType": "NUMBER",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{Select6.selectedOptionLabel===\"EUR\"}}",
+  "key": "m0mpv0zxsf",
+  "label": "KURS EURO",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 58,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 33,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 15,
+  "needsErrorInfo": false,
+  "onBlur": "{{showModal(LanguageLoading.name).then(() => \n  kurswaluta.kurs())\n.then(() =>\n \tdane_oferty_main.run())\n.then(() =>\n  updateopismainkurs.run())\n.then(() =>\n\tprzelicz_main_js.przelicz_glowna())\n.then(() =>\ncloseModal(LanguageLoading.name))\n;}}",
+  "onTextChanged": "",
+  "originalBottomRow": 5,
+  "originalTopRow": 0,
+  "parentColumnSpace": 20.5625,
+  "parentId": "7tq308teo6",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 0,
+  "topRowBeforeCollapse": 0,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "33snq38m0m",
+  "widgetName": "kurseuro"
+}

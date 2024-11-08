@@ -1,0 +1,18 @@
+{
+  "accessor": [
+    "CellHookData_2",
+    "default_2",
+    "Cell_2",
+    "__drawTable_2",
+    "__createTable_2",
+    "applyPlugin_2",
+    "Table_2",
+    "Column_2",
+    "Row_2"
+  ],
+  "defs": "{\"!name\":\"LIB/__createTable_2\",\"__drawTable_2\":{\"!type\":\"fn()\",\"prototype\":{}},\"default_2\":{\"!type\":\"fn()\",\"prototype\":{}},\"Table_2\":{\"!type\":\"fn()\",\"prototype\":{\"getHeadHeight\":{\"!type\":\"fn()\",\"prototype\":{}},\"getFootHeight\":{\"!type\":\"fn()\",\"prototype\":{}},\"allRows\":{\"!type\":\"fn()\",\"prototype\":{}},\"callCellHooks\":{\"!type\":\"fn()\",\"prototype\":{}},\"callEndPageHooks\":{\"!type\":\"fn()\",\"prototype\":{}},\"callWillDrawPageHooks\":{\"!type\":\"fn()\",\"prototype\":{}},\"getWidth\":{\"!type\":\"fn()\",\"prototype\":{}}}},\"Column_2\":{\"!type\":\"fn()\",\"prototype\":{\"getMaxCustomCellWidth\":{\"!type\":\"fn()\",\"prototype\":{}}}},\"CellHookData_2\":{\"!type\":\"fn()\",\"prototype\":{}},\"applyPlugin_2\":{\"!type\":\"fn()\",\"prototype\":{}},\"Row_2\":{\"!type\":\"fn()\",\"prototype\":{\"getMaxCellHeight\":{\"!type\":\"fn()\",\"prototype\":{}},\"hasRowSpan\":{\"!type\":\"fn()\",\"prototype\":{}},\"canEntireRowFit\":{\"!type\":\"fn()\",\"prototype\":{}},\"getMinimumRowHeight\":{\"!type\":\"fn()\",\"prototype\":{}}}},\"Cell_2\":{\"!type\":\"fn()\",\"prototype\":{\"getTextPos\":{\"!type\":\"fn()\",\"prototype\":{}},\"getContentHeight\":{\"!type\":\"fn()\",\"prototype\":{}},\"padding\":{\"!type\":\"fn()\",\"prototype\":{}}}},\"__createTable_2\":{\"!type\":\"fn()\",\"prototype\":{}}}",
+  "name": "__createTable_2",
+  "uidString": "CellHookData_2_Cell_2_Column_2_Row_2_Table_2___createTable_2___drawTable_2_applyPlugin_2_default_2_https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.4/jspdf.plugin.autotable.min.js",
+  "url": "https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.4/jspdf.plugin.autotable.min.js",
+  "version": ""
+}

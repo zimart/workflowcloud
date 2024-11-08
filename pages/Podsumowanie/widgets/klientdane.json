@@ -1,0 +1,60 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 208,
+  "boxShadow": "none",
+  "defaultText": "{{dane_oferty_main.data[0].klient ||\"\"}}\n{{adresklienta.data[0].ulica ||\"\"}}{{adresklienta.data[0].numer ||\"\"}}\n{{adresklienta.data[0].kod ||\"\"}} {{adresklienta.data[0].miejscowosc||\"\"}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "inputType": "MULTI_LINE_TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": false,
+  "key": "x35xvlsqbo",
+  "label": "klient",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 203,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 11,
+  "mobileTopRow": 196,
+  "needsErrorInfo": false,
+  "originalBottomRow": 208,
+  "originalTopRow": 196,
+  "parentColumnSpace": 20.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 11,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 196,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "umn980pswx",
+  "widgetName": "klientdane"
+}

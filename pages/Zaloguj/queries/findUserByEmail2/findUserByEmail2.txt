@@ -1,0 +1,1 @@
+SELECT * FROM user_auth WHERE email = {{inp_email2.text}} and role ="B2B" and active ='tak';

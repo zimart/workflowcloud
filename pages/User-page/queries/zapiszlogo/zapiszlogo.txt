@@ -1,0 +1,3 @@
+UPDATE user_auth SET
+		logobase = '{{logobase.text}}'	 
+  WHERE id = {{Input15.text}};

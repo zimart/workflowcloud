@@ -1,0 +1,1 @@
+SELECT username,id FROM user_auth WHERE username={{Select2.selectedOptionLabel}};

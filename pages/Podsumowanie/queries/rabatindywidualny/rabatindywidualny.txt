@@ -1,0 +1,9 @@
+UPDATE inventory_main SET
+
+    rabatogolny = '{{glowna_tabela.updatedRow.rabatogolny}}',
+    kwotarabatogolny = '{{glowna_tabela.updatedRow.cenanetto*(glowna_tabela.updatedRow.rabatogolny/100)}}',
+		cenaporabacie = '{{glowna_tabela.updatedRow.cenanetto-glowna_tabela.updatedRow.kwotarabatogolny}}',
+		razemnetto = '{{glowna_tabela.updatedRow.cenaporabacie*glowna_tabela.updatedRow.Ilosc}}'
+    
+  WHERE id_main_inv = {{glowna_tabela.updatedRow.id_main_inv}}; -- Specify a valid condition here. Removing the condition may update every row in the table!
+	

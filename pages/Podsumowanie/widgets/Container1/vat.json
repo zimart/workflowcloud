@@ -1,0 +1,72 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( daneoferty.data[0].vat || \"23\" ))(vat.options, vat.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "gymhk2x87w",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "VAT",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 34,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 32,
+  "mobileTopRow": 15,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{showModal(LanguageLoading.name).then(() => {\n  przelicz_main_js.przelicz_glowna();\n  zmiendaneoferty.run();\n  closeModal(LanguageLoading.name);\n});}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 19,
+  "originalTopRow": 12,
+  "parentColumnSpace": 20.5625,
+  "parentId": "7tq308teo6",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 40,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"23%\",\n    \"code\": \"23\"\n  },\n  {\n    \"name\": \"8%\",\n    \"code\": \"8\"\n  },\n  {\n    \"name\": \"0%\",\n    \"code\": \"0\"\n  }\n]",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "nk6d03bqq1",
+  "widgetName": "vat"
+}

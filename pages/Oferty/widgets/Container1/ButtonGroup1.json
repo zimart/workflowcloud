@@ -1,0 +1,167 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonr58juedwfj.isVisible"
+    },
+    {
+      "key": "groupButtons.groupButtonxcjy05f0nl.isVisible"
+    },
+    {
+      "key": "groupButtons.groupButtonebmjpnsx7b.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonxcjy05f0nl.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonr58juedwfj.buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButtonr58juedwfj.isVisible"
+    },
+    {
+      "key": "groupButtons.groupButtonxcjy05f0nl.isVisible"
+    },
+    {
+      "key": "groupButtons.groupButtonebmjpnsx7b.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonr58juedwfj.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonxcjy05f0nl.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonebmjpnsx7b.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "#831843",
+      "buttonType": "SIMPLE",
+      "iconName": "add",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "DODAJ OFERTĘ",
+      "menuItems": {},
+      "onClick": "{{zapytaj_klient.run().then(() => {\n  pobierzid.run();\n  showModal(Insert_Modal.name);\n});}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "refresh",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "ODŚWIEŻ",
+      "menuItems": {},
+      "onClick": "{{tabela_id_klient.run()}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButtonebmjpnsx7b": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "log-out",
+      "id": "groupButtonebmjpnsx7b",
+      "index": 4,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "WYLOGUJ",
+      "menuItems": {},
+      "onClick": "{{removeValue(appsmith.store.token).then(() => {\n  removeValue(appsmith.store.uzytkownik);\n  navigateTo('Zaloguj', {}, 'SAME_WINDOW');\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "kwbmpcaqvc"
+    },
+    "groupButtonr58juedwfj": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "user",
+      "id": "groupButtonr58juedwfj",
+      "index": 2,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": "{{Input4.text===\"Admin\"}}",
+      "itemType": "BUTTON",
+      "label": "KLIENCI",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Klienci', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "872wnfctvp"
+    },
+    "groupButtonxcjy05f0nl": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "user",
+      "id": "groupButtonxcjy05f0nl",
+      "index": 3,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": "{{Input4.text===\"B2B\"}}",
+      "itemType": "BUTTON",
+      "label": "KLIENCI",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Klienci-B2B', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "ar14yz43dj"
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "8ne99aoj6j",
+  "leftColumn": 40,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 49,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "parentColumnSpace": 15.751953125,
+  "parentId": "59rw5mx0bq",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "topRow": 4,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "qmczxr5b8x",
+  "widgetName": "ButtonGroup1"
+}

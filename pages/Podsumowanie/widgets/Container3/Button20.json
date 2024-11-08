@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 35,
+  "boxShadow": "none",
+  "buttonColor": "#b91c1c",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ufu47vxd4q",
+  "leftColumn": 0,
+  "minWidth": 120,
+  "mobileBottomRow": 126,
+  "mobileLeftColumn": 48,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 122,
+  "needsErrorInfo": false,
+  "onClick": "{{zmiendaneoferty.run().then(() => {\n  dane_oferty_main.run();\n  warunki.run();\n});}}",
+  "originalBottomRow": 35,
+  "originalTopRow": 31,
+  "parentColumnSpace": 20.5625,
+  "parentId": "4dusi33tfp",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 13,
+  "text": "{{i18n.translate(\"ZAPISZ SZCZEGÓŁY OFERTY\")}}",
+  "topRow": 31,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "7uaw1ggcjc",
+  "widgetName": "Button20"
+}

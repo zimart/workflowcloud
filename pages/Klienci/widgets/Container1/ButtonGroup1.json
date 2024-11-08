@@ -1,0 +1,109 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonk9gn653l3y.buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButtonk9gn653l3y.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonk9gn653l3y.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "#831843",
+      "buttonType": "SIMPLE",
+      "iconName": "add",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "DODAJ KLIENTA",
+      "menuItems": {},
+      "onClick": "{{showModal(Insert_Modal.name);}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "add",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "ODŚWIEŻ",
+      "menuItems": {},
+      "onClick": "{{SelectQuery.run()}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButtonk9gn653l3y": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "log-out",
+      "id": "groupButtonk9gn653l3y",
+      "index": 2,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "WYLOGUJ",
+      "menuItems": {},
+      "onClick": "{{removeValue(appsmith.store.token).then(() => {\n  removeValue(appsmith.store.uzytkownik);\n  navigateTo('Zaloguj', {}, 'SAME_WINDOW');\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "vu7cnz4wi6"
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "8ne99aoj6j",
+  "leftColumn": 35,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 55,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "parentColumnSpace": 15.4306640625,
+  "parentId": "59rw5mx0bq",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "topRow": 0,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "p6eopgkqui",
+  "widgetName": "ButtonGroup1"
+}

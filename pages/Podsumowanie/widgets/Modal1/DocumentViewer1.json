@@ -1,0 +1,33 @@
+{
+  "animateLoading": true,
+  "bottomRow": 83,
+  "docUrl": "{{wzor_pdf.BuildPDF.data}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "docUrl"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "pq7mgarj5x",
+  "leftColumn": 4,
+  "mobileBottomRow": 49,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.9375,
+  "parentId": "a7fhxodstz",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "topRow": 4,
+  "type": "DOCUMENT_VIEWER_WIDGET",
+  "version": 1,
+  "widgetId": "fty5sy3gk2",
+  "widgetName": "DocumentViewer1"
+}

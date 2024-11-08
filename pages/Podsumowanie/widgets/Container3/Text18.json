@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 31,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cavtlzzmgo",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 12,
+  "mobileLeftColumn": 13,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 8,
+  "needsErrorInfo": false,
+  "originalBottomRow": 31,
+  "originalTopRow": 7,
+  "overflow": "NONE",
+  "parentColumnSpace": 20.25,
+  "parentId": "4dusi33tfp",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"Zapisane dane oferty z dnia\")}} <b>{{dane_oferty_main.data[0].dataoferty ||\"\"}}</b>\n{{i18n.translate(\"Suma netto po rabacie\")}}: <b>{{((sumanettoporabacie.data[0][\"SUM (razemnetto)\"]/kursinput.text)*narzutpdf.text).toFixed(2)||\" \"}} {{Select6.selectedOptionLabel}}</b>\n{{i18n.translate(\"Podatek VAT\")}}: <b>{{Input7.text}} %</b>\n{{i18n.translate(\"Suma podatku\")}}: <b>{{(podatek.text/kursinput.text).toFixed(2)}} {{Select6.selectedOptionLabel}}</b>\n{{i18n.translate(\"Do zapłaty brutto\")}}: <b>{{((sumabrutto.data[0][\"SUM (brutto)\"]/kursinput.text)*narzutpdf.text).toFixed(2)||\" \"}} {{Select6.selectedOptionLabel}}</b>\n{{i18n.translate(\"Waluta dokumentu\")}}: <b>{{Select6.selectedOptionLabel}}</b>\n{{i18n.translate(\"Numer konta bankowego\")}}: <b>{{numerkonta.data[0].konto}}</b>\n{{i18n.translate(\"Warunki płatności\")}}:<b>\n{{MultiSelect1.selectedOptionLabels[0]||\"\"}} {{MultiSelect1.selectedOptionValues[1]||\"\"}} {{MultiSelect1.selectedOptionValues[2]||\"\"}} {{MultiSelect1.selectedOptionValues[3]||\"\"}} {{MultiSelect1.selectedOptionValues[4]||\"\"}} {{MultiSelect1.selectedOptionValues[5]||\"\"}} {{MultiSelect1.selectedOptionValues[6]||\"\"}} {{MultiSelect1.selectedOptionValues[7]||\"\"}} </b>\n{{i18n.translate(\"Wymagana kwota zadatku\")}}: <b>{{wymaganyzadatek.text}} {{Select6.selectedOptionLabel}}</b>\n{{i18n.translate(\"Data ważności oferty\")}}: <b>{{dniwaznosc.text}}</b> dni",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 7,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "ysxugo1rui",
+  "widgetName": "Text18"
+}

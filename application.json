@@ -1,0 +1,165 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "logoAssetId": "",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": false
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#F5D1D1",
+  "embedSetting": {
+    "height": "720px",
+    "showNavigationBar": false,
+    "width": "1024px"
+  },
+  "evaluationVersion": 2,
+  "icon": "workflows",
+  "pages": [
+    {
+      "id": "Zaloguj",
+      "isDefault": true
+    },
+    {
+      "id": "Klienci",
+      "isDefault": false
+    },
+    {
+      "id": "Oferty",
+      "isDefault": false
+    },
+    {
+      "id": "Kategorie_oferty",
+      "isDefault": false
+    },
+    {
+      "id": "Screeny_inventory",
+      "isDefault": false
+    },
+    {
+      "id": "Screeny_system",
+      "isDefault": false
+    },
+    {
+      "id": "Screeny_skrzynki",
+      "isDefault": false
+    },
+    {
+      "id": "testpdf",
+      "isDefault": false
+    },
+    {
+      "id": "Screeny_tkanina_wybor",
+      "isDefault": false
+    },
+    {
+      "id": "Screeny_kolor",
+      "isDefault": false
+    },
+    {
+      "id": "Screeny_napedy",
+      "isDefault": false
+    },
+    {
+      "id": "Screeny_cennik",
+      "isDefault": false
+    },
+    {
+      "id": "Screeny_tabelaindeksy",
+      "isDefault": false
+    },
+    {
+      "id": "rozne-js",
+      "isDefault": false
+    },
+    {
+      "id": "Screeny_wyborserii",
+      "isDefault": false
+    },
+    {
+      "id": "Waluty",
+      "isDefault": false
+    },
+    {
+      "id": "Kalkulacja",
+      "isDefault": false
+    },
+    {
+      "id": "Podsumowanie",
+      "isDefault": false
+    },
+    {
+      "id": "Screeny",
+      "isDefault": false
+    },
+    {
+      "id": "Inventory_screeny",
+      "isDefault": false
+    },
+    {
+      "id": "konfigurator-screeny",
+      "isDefault": false
+    },
+    {
+      "id": "Tkaniny_markizy",
+      "isDefault": false
+    },
+    {
+      "id": "Warunki2",
+      "isDefault": false
+    },
+    {
+      "id": "User-page",
+      "isDefault": false
+    },
+    {
+      "id": "User_auth",
+      "isDefault": false
+    },
+    {
+      "id": "Klienci-B2B",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "logoAssetId": "",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": false
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}
